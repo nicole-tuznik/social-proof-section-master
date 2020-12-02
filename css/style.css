@@ -101,10 +101,11 @@ p {
   margin-top: 1.5rem;
 }
 
-@media screen and (min-width: 800px) {
+@media (min-width: 900px) {
   body {
     text-align: left;
     margin: 5rem auto;
+    padding: 1.5rem;
     background: url(../images/bg-pattern-top-desktop.svg) left top no-repeat, url(../images/bg-pattern-bottom-desktop.svg) right bottom no-repeat;
     font-size: 15px;
     max-width: 1100px;
@@ -131,6 +132,7 @@ p {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
+    padding-left: 7rem;
   }
   .review-box {
     display: -webkit-box;
@@ -161,11 +163,20 @@ p {
   .testimonial-text {
     font-size: 0.9rem;
   }
+  #colton {
+    margin-left: 0;
+  }
   #irene {
     margin-top: 2rem;
   }
   #anne {
     margin-top: 3rem;
+  }
+}
+
+@media (max-width: 1080px) {
+  .ratings {
+    padding-left: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -44,8 +44,6 @@ h2, h3 {
 
 p {
   color: $dark-magenta;
-
-
 }
 
 .left-container {
@@ -63,18 +61,12 @@ p {
     background: $lt-gry-magenta;
     margin: 0.5rem;
     padding: 0.75rem;
-  }
-
-  
+  } 
 }
 
 // Testimonial boxes
 
 .testimonials {
-
-  .testimonial-cards {
-
-  }
 
   .card {
     background: $dark-magenta;
@@ -116,14 +108,17 @@ p {
   }
 }
 
-@media screen and (min-width: 800px) {
+
+
+@media (min-width: 900px) {
+  // General styles
   body {
     text-align: left;
     margin: 5rem auto;
+    padding: 1.5rem;
     background: url(../images/bg-pattern-top-desktop.svg) left top no-repeat, url(../images/bg-pattern-bottom-desktop.svg) right bottom no-repeat;
     font-size: 15px;
     max-width: 1100px;
-  
   }
 
   h1 {
@@ -137,12 +132,14 @@ p {
     gap: 3rem;
   }
 
+  // Top section
   .left-container {
     flex: 0.7;
   }
 
   .ratings {
     flex: 1;
+    padding-left: 7rem;
   }
 
   .review-box {
@@ -160,6 +157,7 @@ p {
     margin-left: 6rem;
   }
 
+  // Testimonials
   .testimonial-cards {
     display: flex;
     align-items: flex-start;
@@ -171,16 +169,19 @@ p {
   }
 
   #colton {
-
+    margin-left: 0;
   }
 
   #irene {
     margin-top: 2rem;
-
   }
 
   #anne {
     margin-top: 3rem;
-
+  }
+}
+@media (max-width: 1080px) {
+  .ratings {
+    padding-left: 0;
   }
 }
