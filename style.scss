@@ -43,12 +43,11 @@ h2, h3 {
 }
 
 p {
-  color: $dark-magenta;
+  color: $dk-gry-magenta;
 }
 
 .left-container {
   margin: 1rem 0.5rem;  
-  // margin-bottom: 1rem;
 }
 
 // Rating star boxes
@@ -123,7 +122,7 @@ p {
 
   h1 {
     margin-top: 1rem;
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   .hero {
@@ -134,7 +133,7 @@ p {
 
   // Top section
   .left-container {
-    flex: 0.7;
+    flex: 0.8;
   }
 
   .ratings {
